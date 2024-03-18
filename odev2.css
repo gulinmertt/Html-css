@@ -1,0 +1,104 @@
+* { /* * = tüm html seçicilerinin seçildiğini gösterir */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* yazı fontu ayarlanır */
+    display: flex;
+    flex-direction: column;
+    margin: 0px; /* kenarlıkla öğeler arasındaki boşluk ayarlanır */
+    padding: 0px; /* içerikle kenarlık arasındaki boşluk ayarlanır */
+    background-color:whitesmoke;
+    min-height: 100vh;
+}
+
+header {
+    background-color:lavender; /* arkaplan rengi ayarlanır */
+    color:black; /* yazı rengi ayarlanır */
+    padding: 20px;
+    text-align: center; /* yazının hizası ayarlanır / burada merkez olarak ayarlandı */
+}
+
+.baslik {
+    background-color:rgb(193, 193, 214);
+}
+
+nav {
+    background-color:rgb(197, 211, 236);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* */
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline; /* */
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none; /* */ 
+    color: black;
+}
+
+#first {
+    flex: 1;
+    height: 250px;
+    width: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 630px;
+}
+
+article {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0px auto;
+    /* border: 1px solid black; */   
+}
+
+#second{
+    flex: 1;
+    height: 280px;
+    width: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 10px;
+}
+
+#resim {
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px; 
+    height: 300px
+}
+footer {
+    background-color: lavender;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 400px;
+}
+
+#communication {
+    background-color: lavender;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
